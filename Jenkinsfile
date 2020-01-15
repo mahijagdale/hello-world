@@ -1,7 +1,7 @@
 node{
    stage('SCM checkout')
     {
-    git 'https://github.com/mahijagdale/jenkins_pipeline_hello.git'
+    git 'https://github.com/mahijagdale/hello-world.git'
      }
      
      stage ('compile package')
